@@ -1,7 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
 /* You can add global styles to this file, and also import other style files */
 .star_bg{
-    background: linear-gradient(rgb(39 121 192 / 60%), rgb(19 28 78 / 60%)), url("./assets/galaxy_bg.jpg") no-repeat;
+    background: linear-gradient(
+        rgb(0 0 0 / 30%), 
+        rgb(0 0 0 / 60%)), 
+        url("./assets/galaxy_bg.jpg") no-repeat;
     background-size: cover;
     height: 100%;
     width: 100%;
