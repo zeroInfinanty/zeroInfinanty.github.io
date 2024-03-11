@@ -1,5 +1,20 @@
-/* You can add global styles to this file, and also import other style files */
-/* You can add global styles to this file, and also import other style files */
+
+$bodyColor : #888;
+$bodyHoverColor: #b3e0ed;
+html,body {
+    color: $bodyColor;
+
+}
+
+a {
+    color:$bodyColor;
+    text-decoration: none;
+    &:hover{
+        color:$bodyHoverColor;
+    }
+}
+
+
 .star_bg{
     background: linear-gradient(
         rgb(0 0 0 / 40%), 
