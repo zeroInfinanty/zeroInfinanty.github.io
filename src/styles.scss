@@ -1,6 +1,7 @@
 
 $bodyColor : #333;
 $bodyHoverColor: #b3e0ed;
+$indexBgColorL :#0A1529;
 html,body {
     color: $bodyColor;
 
@@ -19,7 +20,7 @@ a {
     background: linear-gradient(
         rgb(0 0 0 / 40%), 
         rgb(0 0 0 / 40%)), 
-        url("./assets/star_bg_min.webp") no-repeat;
+        url("src/assets/star_bg_min.webp") no-repeat;
     background-size: cover;
     height: 100%;
     width: 100%;
