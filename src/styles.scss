@@ -1,21 +1,7 @@
 
-$bodyColor : #333;
-$bodyHoverColor: #b3e0ed;
-$indexBgColorL :#0A1529;
-html,body {
-    color: $bodyColor;
-
-}
-
-a {
-    color:$bodyColor;
-    text-decoration: none;
-    &:hover{
-        color:$bodyHoverColor;
-    }
-}
 
 
+@import url(./custom.css);
 .star_bg{
     background: linear-gradient(
         rgb(0 0 0 / 40%), 
